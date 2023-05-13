@@ -287,12 +287,40 @@ footer .wave#wave4 {
     right: 3%;
     transition: 0.2s;
   }
+  .footer-section {
+    padding-top: 20px;
+    margin-bottom: 17px;
+    margin-right: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .footer-img img {
+    width: 150px;
+    height: auto;
+    margin-left: 70px;
+    margin-top: 10px;
+  }
 }
 
 @media (max-width: 1460px) {
   section {
     padding: 0 12%;
     transition: 0.2s;
+  }
+  .footer-section {
+    padding-top: 20px;
+    margin-bottom: 17px;
+    margin-right: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .footer-img img {
+    width: 150px;
+    height: auto;
+    margin-left: 70px;
+    margin-top: 10px;
   }
 }
 
@@ -307,6 +335,20 @@ footer .wave#wave4 {
   }
   .hero-text h5 {
     margin-bottom: 25px;
+  }
+  .footer-section {
+    padding-top: 20px;
+    margin-bottom: 17px;
+    margin-right: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .footer-img img {
+    width: 150px;
+    height: auto;
+    margin-left: 70px;
+    margin-top: 10px;
   }
 }
 
@@ -336,6 +378,20 @@ footer .wave#wave4 {
   .scroll-down {
     display: none;
   }
+  .footer-section {
+    padding-top: 20px;
+    margin-bottom: 17px;
+    margin-right: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .footer-img img {
+    width: 150px;
+    height: auto;
+    margin-left: 70px;
+    margin-top: 10px;
+  }
 }
 
 @media (max-width: 990px) {
@@ -363,11 +419,39 @@ footer .wave#wave4 {
   .navlist.open {
     right: 0;
   }
+  .footer-section {
+    padding-top: 20px;
+    margin-bottom: 17px;
+    margin-right: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .footer-img img {
+    width: 150px;
+    height: auto;
+    margin-left: 70px;
+    margin-top: 10px;
+  }
 }
 
 @media (max-width: 680px) {
   .hero-img img {
     width: 100%;
     height: auto;
+  }
+  .footer-section {
+    padding-top: 20px;
+    margin-bottom: 17px;
+    margin-right: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .footer-img img {
+    width: 150px;
+    height: auto;
+    margin-left: 70px;
+    margin-top: 10px;
   }
 }
